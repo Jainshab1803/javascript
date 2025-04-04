@@ -65,6 +65,43 @@
 height: 40px;
 
         }
+/* Media Queries for Responsiveness */
+
+/* Mobile devices (up to 600px) */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 24px; /* Chhota heading mobile pe */
+    }
+    main {
+        font-size: 16px; /* Text thoda chhota */
+        padding: 10px;
+    }
+    footer {
+        font-size: 14px;
+    }
+}
+
+/* Tablets (601px to 900px) */
+@media (min-width: 601px) and (max-width: 900px) {
+    h1 {
+        font-size: 30px;
+    }
+    main {
+        font-size: 17px;
+        padding: 15px;
+    }
+}
+
+/* Desktops (901px and above) */
+@media (min-width: 901px) {
+    h1 {
+        font-size: 36px;
+    }
+    main {
+        max-width: 800px;
+        margin: 0 auto; /* Center content */
+    }
+}
     </style>
 </head>
 <body>
